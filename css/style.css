@@ -19,6 +19,13 @@ h1 {
     color: #6e7ea9;
     text-transform: uppercase;
 }
+a:hover {
+    color: gold;
+}
+.grid-item:nth-child(3){
+    color: gold;
+    background: honeydew;
+}
 .btn-free {
     color: #fff;
     font-weight: 400;
