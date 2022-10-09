@@ -13,18 +13,27 @@ h1 {
     font-weight: 600;
     color: #192b59;
 }
+.page-header {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 .nav_menu {
-    font-size: 12px;
-    font-weight: 700;
-    color: #6e7ea9;
-    text-transform: uppercase;
-    margin:0px;
-    padding: 0px;
-    list-style-type:none ;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-content: center;
+     font-size: 12px;
+     font-weight: 700;
+     color: #6e7ea9;
+     text-transform: uppercase;
+     margin: 0;
+     padding: 0px;
+     list-style-type: none;
 }
 .nav_menu li {
-    display: inline;
-    margin-left: 100px;
+    flex-grow: 25%;
 }
 .btn-primary {
     color: #fff;
