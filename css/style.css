@@ -610,3 +610,69 @@ letter-spacing: -1.5px;
     color: #192b59;
 }
 /* PAGE GRID END*/
+
+/* PAGE SOFTWARE */
+.page-software-icon {
+display: block;
+background-image: url(../img/icon.png);
+background-repeat: no-repeat;
+width: 103px;
+height: 92px;
+}
+.page-software .title-h2 {
+    max-width: 770px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+.page-software-list dt {
+    font-weight: 700;
+    color: #5a6789;
+    margin-bottom: 10px;
+}
+.page-software-list dd {
+    margin-left: 0;
+    margin-bottom: 50px;
+    line-height: 1.8;
+}
+.page-software-list {
+    margin-top: 10px;
+    height: 340px;
+    overflow: hidden;
+    overflow-y: scroll;
+    max-width: 600px;
+}
+.page-software-list::-webkit-scrollbar { 
+    width: 4px; 
+    background-color: #f3f6ff;
+}
+.page-software-list::-webkit-scrollbar-thumb { 
+    width: 4px; 
+    height: 4px; 
+    border-radius: 20px; 
+    background-color: #1085e4;
+}
+.page-software-flex {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 304px;
+}
+.page-software-flex>div {
+    flex-basis: 55%;
+}
+.page-software {
+    padding: 110px 0 118px 0;
+    background-image: url(../img/page-software-icon.png);
+    background-repeat: no-repeat;
+    margin-right: 50px;
+}
+.page-software-flex image {
+    display: flex;
+}
+.software-p p {
+    max-width: 600px;
+}
+.img2 {
+    background-repeat: no-repeat;
+}
+
+/* PAGE SOFTWARE END */ 
