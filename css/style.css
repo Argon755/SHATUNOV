@@ -218,6 +218,7 @@ font-weight: 700;
     font-size: 60px;
     color: #bacbdc;
     display: block;
+    margin-bottom: 5px
 }
 .page-stat ul li {
     font-weight: 700;
@@ -243,7 +244,11 @@ font-weight: 700;
 /* END PAGE */
 
 /* Блок page-SWD */
-.page-SWD,
+.page-SWD {
+    text-align: center;
+    padding: 0 100px;
+    padding-top: 84px;
+}
 .page-plan {
     text-align: center;
     padding: 20px 400px;
@@ -519,7 +524,89 @@ letter-spacing: -1.5px;
 /* PAGE Subscribe END*/
 
 /* PAGE GRID */
-
-
-
+.grid-item {
+    text-align: center;
+    box-shadow: 0 12px 12px #f4f4f4;
+    padding-bottom: 45px;
+    padding-top: 61px;
+    max-width: 360  px;
+}
+.grid-icon {
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    height: 92px;
+    background-position: center;
+}
+.grid-icon-1 {
+    background-image: url(../img/Ficon-1.png);
+    width: 73px;
+}
+.grid-icon-2 {
+    background-image: url(../img/Ficon-2.png);
+    width: 89px;
+}
+.grid-icon-3 {
+    background-image: url(../img/Ficon-3.png);
+    width: 79px;
+}
+.grid-icon-4 {
+    background-image: url(../img/Ficon-4.png);
+    width: 85px;
+}
+.grid-icon-5 {
+    background-image: url(../img/Ficon-5.png);
+    width: 100px;
+}
+.grid-icon-6 {
+    background-image: url(../img/Ficon-6.png);
+    width:103px;
+}
+.grid {
+    display: grid;
+    grid-template-areas: "a b c" "d b c" "d e f" "g e f" "g h h";
+    margin: 0 auto;
+    max-width: 1110px;
+    padding-top: 84px;
+    padding-bottom: 134px;
+    Grid-gap: 35px; 
+    Grid-template-columns: 1fr 1fr 1fr; 
+}
+.grid-item-title {
+    grid-area: a;
+}
+.grid-item-1 {
+    grid-area: b;
+}
+.grid-item-2 {
+    grid-area: c;
+}
+.grid-item-3 {
+    grid-area: d;
+}
+.grid-item-4 {
+    grid-area: e;
+}
+.grid-item-5 {
+    grid-area: f;
+}
+.grid-item-6 {
+    grid-area: g;
+}
+.grid-text {
+    grid-area: h;
+}
+.grid-text p {
+    text-align: left;
+}
+.grid-Pong p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+}
+.grid-Pong p span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #192b59;
+}
 /* PAGE GRID END*/
