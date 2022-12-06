@@ -135,7 +135,6 @@ font-weight: 700;
     color: #00bffe;
     display: block;
 }
-
 .grid-Robot p {
     font-size: 18px;
 }
@@ -756,3 +755,135 @@ height: 92px;
     align-items: center;
 }
 /* PAGE CLIENTS END */
+/* PAGE VIDEO */
+.page_app {
+    max-width: 1110px;
+    margin: 0 auto;
+
+}
+.page-app-flex {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+.app-img {
+    margin-top: -73px;
+    margin-left: -73px;
+}
+.page-app-left {
+    display: block;
+    min-width: 600px;
+    line-height: 1.14;
+    margin-top: -24px;
+}
+.page-app-p {
+    line-height: 26px;
+}
+.dowload-btn {
+    list-style-type: none;
+    display: flex;
+    justify-items: flex-start;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    margin-block-end: 0;
+    padding-top: 37px;
+    margin-left: -12px;
+}
+.dowload-btn li {
+    margin-top: -35px;
+}
+.available {
+    font-weight: 700;
+    font-size: 16px;
+    color: #c4d2dd;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+.page-app-h2 {
+    letter-spacing: -1.5px;
+}
+.video_play {
+    background-size: cover;
+    z-index: 4;
+    margin-left: 115px;
+    padding: 55px 0 43px 0;
+}
+/* PAGE VIDEO END */
+/* PAGE Limpon */
+.page_suitable {
+    background-image: url(../img/Limponbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 118px 0 136px 0;
+}
+.page-suitable-pre {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+}
+.page-suitable-flex {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+
+}
+.page-suitable-text {
+    display: block;
+    min-width: 600px;
+}
+.page-suitable-text> h2 {
+    line-height: 1.14;
+    letter-spacing: -1.5px;
+    margin-top: 18px;
+}
+.page-suitable-text>p {
+    margin-top: -11px;
+    margin-bottom: 50px;
+}
+.btn-get {
+    padding: 20px 44px;
+}
+.brandon-img {
+    margin-top: 10px;
+    margin-right: 46px;
+}
+.page--icon {
+    display: block;
+    background-image: url(../img/Icon+.png);
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 92px;
+    margin-left: -30px;
+}
+
+/* PAGE Limpon END */
+/* PAGE CONTROL */
+.page_etid {
+    background-image: url(../img/Control-bg.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: right 0px center;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 118px 0 136px 0;
+}
+.page-etid-pre {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.page-etid-text {
+    max-width: 600px;
+}
+.page-etid-flex {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+
+/* PAGE CONTROL END */
