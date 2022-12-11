@@ -424,26 +424,102 @@
     </div>
 </div>
 
-<div class="page-tea">
-<div>
+<div class="page-team">
+  <div class="wrap">
+    <h2 class="title-h2-40 team-h2"><span>angels</span>Our Team</h2>
     <div class="box-team">
-        <div>
-            <p>founder</p>
-            <p>Ricardo T. Obrien</p>
-        </div>
-
-        <div>
-            <p>ceo</p>
-            <p>Alberto Del Rio</p>
-        </div>
-
-        <div>
-            <p>designer</p>
-            <p>Thomas Alva Adison</p>
-        </div>
-
+      <div class="box-team-item">
+        <img src="img/1.png" alt="ava" class="avatar" />
+        <p class="page-team-position">founder</p>
+        <p class="page-team-name">Ricardo T. Obrien</p>
+        <button class="btn-team button-more btn-ricardo" type="button">
+          <span></span>
+        </button>
+        <ul class="social-team social-ricardo" style="display: none">
+          <li>
+            <a href="" target="_blank" class="btn-team btn-fb"
+              ><span></span
+            ></a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="btn-team btn-tw"
+              ><span></span
+            ></a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="btn-team btn-be"
+              ><span></span
+            ></a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="btn-team btn-wb"
+              ><span></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="box-team-item">
+        <img src="img/2.png" alt="ava" class="avatar" />
+        <p class="page-team-position">ceo</p>
+        <p class="page-team-name">Alberto Del Rio</p>
+        <button class="btn-team button-more btn-alberto" type="button">
+          <span></span>
+        </button>
+        <ul class="social-team social-alberto" style="display: none">
+          <li>
+            <a href="" target="_blank" class="btn-team btn-fb"
+              ><span></span
+            ></a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="btn-team btn-tw"
+              ><span></span
+            ></a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="btn-team btn-be"
+              ><span></span
+            ></a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="btn-team btn-wb"
+              ><span></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="box-team-item">
+        <img src="img/3.png" alt="ava" class="avatar" />
+        <p class="page-team-position">designer</p>
+        <p class="page-team-name">Thomas Alva Adison</p>
+        <button class="btn-team button-more btn-thomas" type="button">
+          <span></span>
+        </button>
+        <ul class="social-team social-thomas" style="display: none">
+          <li>
+            <a href="" target="_blank" class="btn-team btn-fb"
+              ><span></span
+            ></a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="btn-team btn-tw"
+              ><span></span
+            ></a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="btn-team btn-be"
+              ><span></span
+            ></a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="btn-team btn-wb"
+              ><span></span
+            ></a>
+          </li>
+        </ul>
+      </div>
     </div>
-</div>
+  </div>
 </div>
 
 <div class="page-form">
@@ -465,7 +541,7 @@
         <li>
             <a href="" target="_blank"></a>
         </li>
-        
+
         <li>
             <a href="" target="_blank"></a>
         </li>
@@ -485,7 +561,34 @@
     </div>
 </div>
 
-
+<script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $(".btn-ricardo").click(function () {
+        $(".btn-ricardo").hide();
+        $(".social-ricardo").fadeIn();
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".btn-alberto").click(function () {
+        $(".btn-alberto").hide();
+        $(".social-alberto").fadeIn();
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".btn-thomas").click(function () {
+        $(".btn-thomas").hide();
+        $(".social-thomas").fadeIn();
+      });
+    });
+  </script>
 </body>
 
 </html>
